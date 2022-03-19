@@ -98,17 +98,10 @@ void pushFront(List * list, void * data)
     Node *nodoNuevo = createNode(data);
     if (list->head != NULL)
     {
-        /*
-        list->current = list->head;
-        list->head = nodoNuevo;
-        list->head->next = list->current;
-        list->current->prev = list->head;
-        */
-
        list->head->prev = nodoNuevo;
        nodoNuevo->next = list->head;
        list->head = nodoNuevo;
-
+       printf("\nel siguiente al %i es %i\n", list->head->data , list->head->next->data);
     }
 
     
