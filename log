@@ -60,3 +60,8 @@ vi., 18 de mar. de 2022 22:23:02:
  tests:  1|5
 total_score: 10/70
 d3b08ab
+vi., 18 de mar. de 2022 22:24:01: 
+ list.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  0|0
+dc1828a

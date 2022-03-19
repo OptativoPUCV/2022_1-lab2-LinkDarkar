@@ -50,8 +50,9 @@ void * firstList(List * list)
 {
     if(list->head != NULL && list->head->data != NULL)
     {
-        list->current->data = list->head;
+        list->current = list->head;
     }
+
     return list->head->data;
 }
 
