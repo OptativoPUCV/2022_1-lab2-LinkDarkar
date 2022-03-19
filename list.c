@@ -70,7 +70,7 @@ void * nextList(List * list)
 
 void * lastList(List * list)
 {
-    while (list->current != NULL && list->current->data != NULL && list->current->next != NULL)
+    while (list->current != NULL && list->current->data != NULL)
     {
         if (list->current->next == NULL)
         {
