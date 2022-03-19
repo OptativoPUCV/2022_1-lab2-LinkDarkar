@@ -100,10 +100,10 @@ void pushFront(List * list, void * data)
     {
         list->current = list->head;
     }
-    
-    list->head = nodoNuevo;
+
     if (list->head->next == NULL)
     {
+        list->head = nodoNuevo;
         list->tail = list->head;
     }
     
