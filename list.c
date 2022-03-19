@@ -64,10 +64,21 @@ void * nextList(List * list)
         list->current = list->current->next;
         return list->current->data;
     }
+
     return NULL;
 }
 
-void * lastList(List * list) {
+void * lastList(List * list)
+{
+    while (list->current != NULL && list->current->data != NULL && list->current->next != NULL)
+    {
+        if (list->current->next == NULL)
+        {
+            return list->current->data;
+        }
+        
+        list->current = list->current->next;
+    }
     return NULL;
 }
 

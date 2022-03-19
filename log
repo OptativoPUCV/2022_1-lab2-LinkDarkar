@@ -82,3 +82,9 @@ vi., 18 de mar. de 2022 22:30:37:
  tests:  5|4
 total_score: 25/70
 bc362db
+vi., 18 de mar. de 2022 22:35:36: 
+ list.c | 12 +++++++++++-
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+ tests:  5|4
+total_score: 25/70
+04cd7ec
