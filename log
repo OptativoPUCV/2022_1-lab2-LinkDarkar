@@ -2,3 +2,9 @@ vi., 18 de mar. de 2022 22:04:27:
  tests:  0|6
 total_score: 0/70
 924e8e3
+vi., 18 de mar. de 2022 22:04:52: 
+ list.c | 15 +++++++++++++--
+ 1 file changed, 13 insertions(+), 2 deletions(-)
+ tests:  1|5
+total_score: 10/70
+1f3a181
