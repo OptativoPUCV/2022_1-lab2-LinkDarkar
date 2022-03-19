@@ -48,14 +48,14 @@ List * createList()
 
 void * firstList(List * list)
 {
-    list->current->data = list->head;
-    return list->head;
+    list->current = list->head;
+    return list->head->data;
 }
 
 void * nextList(List * list)
 {
-    list->current->data = list->current->next;
-    return list->current->next;
+    list->current = list->current->next;
+    return list->current->next->data;
 }
 
 void * lastList(List * list) {
