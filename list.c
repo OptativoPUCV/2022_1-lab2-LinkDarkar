@@ -101,7 +101,7 @@ void pushFront(List * list, void * data)
        list->head->prev = nodoNuevo;
        nodoNuevo->next = list->head;
        list->head = nodoNuevo;
-       printf("\nel siguiente al %i es %i\n", list->head->data , list->head->next->data);
+       printf("\nel siguiente al %p es %p\n", list->head->data , list->head->next->data);
     }
 
     
