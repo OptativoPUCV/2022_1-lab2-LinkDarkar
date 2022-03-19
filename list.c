@@ -87,9 +87,9 @@ void * prevList(List * list)
     if (list->current != NULL && list->current->next == NULL)
     {
         list->current = list->current->prev;
-        return list->current;
+        return list->current->data;
     }
-    
+
     return NULL;
 }
 
